@@ -11,7 +11,7 @@ claude_agent_location = Agent(
 )
 
 claude_agent_project = Agent(
-    model=Claude(model="claude-3-7-sonnet",project_id="ds-agent-incubator-prd-59d1",location="us-east5"),
+    model=Claude(model="claude-3-7-sonnet",project_id="some-project",location="us-east5"),
     description="Project agent",
     instruction=("You are a helpful Project agent, that can answer questions, and transfer back to a gemini agent"),
     name="test_claude_different_project"
